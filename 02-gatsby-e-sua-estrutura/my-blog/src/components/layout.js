@@ -1,9 +1,15 @@
 import PropTypes from "prop-types"
 import React from "react"
+import Profile from "./Profile"
 
 const Layout = ({ children }) => {
   return (
-    <main>{children}</main>
+    <>
+      <aside>
+        <Profile />
+      </aside>
+      <main>{children}</main>
+    </>
   )
 }
 
