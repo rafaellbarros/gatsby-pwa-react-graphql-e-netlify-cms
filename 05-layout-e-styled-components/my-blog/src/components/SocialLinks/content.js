@@ -21,3 +21,5 @@ const links = [
     url: `https://unsplash.com/xpto`,
   },
 ]
+
+export default links
