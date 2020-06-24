@@ -3,7 +3,7 @@ date: 2020-06-22 09:00:00
 title: Lorem lorem ipsum
 description: And I'm lorem sure lorem
 category: JS
-backgroud: "#7AAAB13"
+background: "red"
 ---
 
 # Lorem ipsum

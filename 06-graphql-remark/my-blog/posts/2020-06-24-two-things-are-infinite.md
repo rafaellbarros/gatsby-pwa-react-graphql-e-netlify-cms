@@ -3,7 +3,7 @@ date: 2020-06-24 02:01:00
 title: Tow things are infinite
 description: And I'm not sure about the universe.
 category: Misc
-backgroud: "#7AAAB13"
+background: "#7AAB13"
 ---
 
 # Lorem ipsum
