@@ -1,4 +1,5 @@
 
+require("dotenv").config()
 
 const postQuery = `{
     posts: allMarkdownRemark(sort: { fields: frontmatter___date, order: DESC }){
@@ -36,7 +37,7 @@ const queries = [
     {
         query: postQuery,
         transformer: ({ data }) => flatten(data.posts.edges),
-        indexName: process.env.GATSBY_ALGOLIA_INDEX_NAME,
+        indexName: process.env.ALGOLIA_INDEX_NAME,
         settings,
     },
   ]
