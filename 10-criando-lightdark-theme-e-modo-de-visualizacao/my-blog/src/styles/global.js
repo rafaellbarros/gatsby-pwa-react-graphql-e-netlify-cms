@@ -72,7 +72,8 @@ const GlobalStyles = createGlobalStyle`
     --white: #fff;
     --black: #222;
   }
-  body.light {
+  
+  body {
     --borders: #dedede;
     --postColor: #111;
     --texts: #555555;
@@ -81,6 +82,6 @@ const GlobalStyles = createGlobalStyle`
     --background: #fff;
     --white: #fff;
     --black: #222;
-  }
+  } 
 `
 export default GlobalStyles
