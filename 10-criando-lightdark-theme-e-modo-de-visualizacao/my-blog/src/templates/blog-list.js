@@ -28,7 +28,7 @@ const BlogList = props => {
               timeToRead,
               fields: { slug },
             },
-          }) =>(
+          },i) =>(
               <PostItem 
                 slug={slug}
                 background={background}
@@ -37,6 +37,7 @@ const BlogList = props => {
                 timeToRead={timeToRead}
                 title={title}
                 description={description}
+                key={i}
               />
           ))}
         </S.ListWrapper>
